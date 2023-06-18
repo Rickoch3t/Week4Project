@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600&family=Manrope:wght@400;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    
+  }
+
+
+html body {
+
+    margin: 1%;
+    padding: 0;
+    transform: scale(0.45);
+    transform-origin: top;
+  }
+  
+section {
+    display: flex;
+    flex-direction: column;    
+    gap: 100%;
+    max-width: 2000px; 
+    margin: 0 auto; 
+   
+    
+    }
+
+body .Navbar {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    /* padding: 8px 32px; */
+    padding: 1% 4%;
+    gap: 40%;
+    margin-bottom: 16%;
+
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    max-width: 2000px; 
+    margin: auto;
+}
+
+.Navbar .Buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70%;
+}
+
+.Navbar .Buttons .Button1 {
+    font-family: 'Halant', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #041330;
+}
+
+.Navbar .Buttons .Button2 {
+    font-family: 'Halant', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #041330;
+}
+
+.Navbar .Buttons .Button3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5% 8%;    
+    border: 1px solid #155EEF;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #155EEF;
+    white-space: nowrap;
+}
+
+.Sammy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 2%;
+    gap: 1%;
+    margin-top: 1%;
+    margin-bottom: 3%; 
+    border: 2px solid #155EEF;
+    border-radius: 8px;   
+     
+}
+
+.Sammy .Text {
+    display: flex;
+    flex-direction: column;    
+    gap: 2%;
+     
+}
+
+.Sammy .Text .Welcome {
+    font-family: 'Halant', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+
+.Sammy .Text p {
+    font-family: 'Halant', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 120%;
+    color: #155EEF;
+    /* display: flex; */
+    white-space: nowrap;
+
+}
+
+.Sammy .Text .Brief {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+    text-align: justify;
+    /* display: flex; */
+}
+
+.Sammy .Text .Button4 {
+    display: flex;   
+    align-items: center;
+    width: 164px;
+    height: 44px;
+    background: #155EEF;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: white;
+    padding: 4% 3%;
+    white-space: nowrap;
+    margin-top: 10%;
+ 
+}
+
+.Sammy .Image {
+    display: flex;
+  
+}
+
+.About {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 2%;
+    gap: 3%;
+    margin-top: 1%;
+    margin-bottom: 3%; 
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+   
+}
+
+.About .Image2 {
+    transform: scale(0.9);   
+}
+
+.About .Text2 {
+    display: flex;
+    flex-direction: column;    
+    gap: 2%;
+
+}
+
+.About h4 {
+    font-family: 'Halant', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #041330;
+    transform: scale(0.9);  
+    margin: 0.5%;  
+    display: flex;
+}
+
+.About p {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+    white-space: nowrap;
+    transform: scale(0.9);
+    display: flex;
+
+    
+}
+.Footer {
+    display: flex;
+    flex-direction: row; 
+    vertical-align: middle;
+    align-items: center;
+    padding: 1% 4%;
+    gap: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+
+}
+
+.Footer .Logo2 {
+    display: flex;
+    align-items: center;
+}
+
+.Footer .copyright {
+    white-space: nowrap;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #041330;
+
+}
+
