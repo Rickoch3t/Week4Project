@@ -11,8 +11,8 @@ html body {
 
     margin: 1%;
     padding: 0;
-    transform: scale(0.45);
-    transform-origin: top;
+    /* transform: scale(0.45);
+    transform-origin: top; */
   }
   
 section {
@@ -31,20 +31,22 @@ body .Navbar {
     align-items: center;
     /* padding: 8px 32px; */
     padding: 1% 4%;
-    gap: 40%;
+    /* gap: 40%; */
     margin-bottom: 16%;
 
     border: 2px solid #155EEF;
     border-radius: 8px;
     max-width: 2000px; 
     margin: auto;
+    justify-content: space-between;
 }
 
 .Navbar .Buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 70%;
+    gap: 10%;
+    justify-content: space-around;
 }
 
 .Navbar .Buttons .Button1 {
@@ -86,9 +88,9 @@ body .Navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 4% 2%;
-    gap: 1%;
+    /* gap: 1%; */
     margin-top: 1%;
     margin-bottom: 3%; 
     border: 2px solid #155EEF;
@@ -177,7 +179,8 @@ body .Navbar {
 }
 
 .About .Image2 {
-    transform: scale(0.9);   
+    /* transform: scale(0.9);    */
+    margin-left: 1%;
 }
 
 .About .Text2 {
@@ -193,8 +196,7 @@ body .Navbar {
     font-weight: 600;
     font-size: 40px;
     line-height: 120%;
-    color: #041330;
-    transform: scale(0.9);  
+    color: #041330;  
     margin: 0.5%;  
     display: flex;
 }
@@ -208,9 +210,9 @@ body .Navbar {
     text-align: justify;
     letter-spacing: 0.5px;
     color: #2E3A53;
-    white-space: nowrap;
-    transform: scale(0.9);
+    /* white-space: nowrap;     */
     display: flex;
+    margin-right: 3%;
 
     
 }
